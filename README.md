@@ -4,16 +4,17 @@
 * Django 2.0
 * Python 3.6
 
-#### More detailed instructions on howto
+#### More detailed coming up on docs/howto
 #### Latest changes
 * Application runs on Docker
 ````bash
 docker-compose up
 ````
+* PostgreSQL on docker
 
 #### Future plans
-* Dockerize the SQLite database
 * Change the Django server to Gunicorn
+* Dockerfile for postgresql
 
 #### Notes
 You can find the original tutorial from:<br>

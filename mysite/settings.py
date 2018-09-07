@@ -25,10 +25,7 @@ SECRET_KEY = 'dg#m%q7203lthwfbf%lbarh0x+yfq2@wm@*8309u5*=d1!g1to'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'localhost',
-    '0.0.0.0',
-    '10.0.2.15',
-    '127.0.0.1'
+    '*'
 ]
 
 # Application definition
@@ -78,11 +75,11 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'mydatabase',
-        'USER': 'mydatabaseuser',
-        'PASSWORD': 'mypassword',
-        'HOST': '127.0.0.1',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD': 'postgres',
+        'HOST': '0.0.0.0',
         'PORT': '5432',
     }
 }
