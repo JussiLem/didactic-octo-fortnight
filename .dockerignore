@@ -2,3 +2,4 @@ db*
 docker-compose.yml
 Dockerfile
 .gitignore
+venv
